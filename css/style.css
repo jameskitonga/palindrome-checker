@@ -1,0 +1,133 @@
+.cards {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aa57cc;
+  opacity: 0.8;
+}
+.cards form {
+  box-shadow: 2px 2px 16px black;
+  align-items: center;
+  justify-content: center;
+  background: #aa57cc;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 5px;
+}
+.cards .wrapper-header {
+  background: #fff;
+  max-width: 30vw;
+  border-radius: 7px;
+}
+.cards .wrapper {
+  border-radius: 7px;
+}
+.cards header h1 {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0.4em;
+  color: #aa57cc;
+}
+.cards header p {
+  font-size: 1.3em;
+  color: #474747;
+  margin: 1em;
+}
+.cards .inputs h2 {
+  color: #aa57cc;
+}
+.cards .inputs input {
+  width: 100%;
+  height: 7vh;
+  outline: none;
+  font-size: 1em;
+  border-radius: 5px;
+  margin-top: 2em;
+  border: 1px solid #aa57cc;
+}
+.cards .inputs input:focus {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+.cards .inputs button {
+  width: 70%;
+  height: 3em;
+  outline: none;
+  border: none;
+  opacity: 0.6;
+  margin-top: 3em;
+  font-size: 1.2em;
+  border-radius: 5px;
+  background: #aa57cc;
+  cursor: pointer;
+}
+.cards .inputs button :hover {
+  background-color: red;
+}
+.cards .info-txt {
+  display: none;
+  font-size: 10em;
+  text-align: center;
+}
+.cards .info-txt span {
+  color: #aa57cc;
+}
+.cards #feedback {
+  text-align: center;
+  font-weight: bold;
+  margin: 2em;
+  font-size: 2em;
+}
+.cards .burlywood {
+  color: burlywood;
+}
+.cards .red {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    justify-content: center;
+    align-items: center;
+    max-height: 0.7vh;
+  }
+  .cards form {
+    width: 100%;
+    background-color: cyan;
+  }
+  .cards .wrapper-header {
+    max-width: 100%;
+    background-color: cyan;
+    border-radius: 7px;
+  }
+  .cards header h1 {
+    font-size: 2.4em;
+    font-weight: bold;
+    padding: 0.4em;
+    color: #aa57cc;
+  }
+  .cards header p {
+    font-weight: bold;
+  }
+  .burlywood {
+    color: #aa57cc;
+  }
+  .red {
+    color: red;
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aa57cc;
+}
+
+container {
+  width: 60%;
+  margin: 0 auto;
+}

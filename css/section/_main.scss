@@ -1,0 +1,157 @@
+@use "../overalstyle/variables" as *;
+
+.cards {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aa57cc;
+    opacity: 0.8;
+
+    form {
+        box-shadow: 2px 2px 16px black;
+        align-items: center;
+        justify-content: center;
+        background: $primarycolor;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 2em;
+        border-radius: 5px;
+
+    }
+
+    .wrapper-header {
+        background: #fff;
+        max-width: 30vw;
+        border-radius: 7px;
+    }
+
+    .wrapper {
+
+        border-radius: 7px;
+
+    }
+
+    header h1 {
+        font-size: 2em;
+        font-weight: bold;
+        padding: .4em;
+        color: $primarycolor;
+    }
+
+    header p {
+        font-size: 1.3em;
+        color: #474747;
+        margin: 1em;
+    }
+
+    .inputs h2 {
+        color: $primarycolor;
+
+    }
+
+    .inputs input {
+        width: 100%;
+        height: 7vh;
+        outline: none;
+        font-size: 1em;
+        border-radius: 5px;
+        margin-top: 2em;
+        border: 1px solid $primarycolor;
+    }
+
+    .inputs input:focus {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .inputs button {
+        width: 70%;
+        height: 3em;
+        outline: none;
+        border: none;
+        opacity: 0.6;
+        margin-top: 3em;
+        font-size: 1.2em;
+        border-radius: 5px;
+        background: #aa57cc;
+        cursor: pointer;
+
+        & :hover {
+            background-color: red;
+        }
+    }
+
+    .info-txt {
+        display: none;
+        font-size: 10em;
+        text-align: center;
+
+    }
+
+    .info-txt span {
+        color: #aa57cc;
+
+    }
+
+    #feedback {
+        text-align: center;
+        font-weight: bold;
+        margin: 2em;
+        font-size: 2em;
+
+    }
+
+    .burlywood {
+        color: burlywood;
+    }
+
+    .red {
+        color: red;
+        ;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .cards {
+
+        justify-content: center;
+        align-items: center;
+        max-height: .7vh;
+
+        form {
+            width: 100%;
+            background-color: cyan;
+        }
+
+        .wrapper-header {
+
+            max-width: 100%;
+            background-color: cyan;
+            border-radius: 7px;
+        }
+
+
+        header h1 {
+            font-size: 2.4em;
+            font-weight: bold;
+            padding: .4em;
+            color: $primarycolor;
+        }
+
+        header p {
+            font-weight: bold;
+        }
+
+
+    }
+
+    .burlywood {
+        color: $primarycolor;
+    }
+
+    .red {
+        color: red;
+
+    }
+}

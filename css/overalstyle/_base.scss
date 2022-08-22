@@ -1,0 +1,15 @@
+@use "../overalstyle/variables" as *;
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $primarycolor;
+}
+container{
+    width:60%;
+    margin: 0 auto;
+}
